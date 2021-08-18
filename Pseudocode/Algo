@@ -1,0 +1,26 @@
+Find the meaning of the word "code" in dictionary
+Approach 1
+	O(n)
+	1. Open the dictionary
+	2. See the word one by one
+	3. If the word is "code", find its meaning
+	4. Else if repeat step 2 until the word "code" is found
+	5. Else quit
+
+Approach 2
+	O(n/26)
+	1. Open the dictionary
+	2. Find the first letter "c"
+	3. If the first letter is "c"
+		find the second letter "o"
+	4. Else if repeat step 3
+	5.	If the second letter is "o"
+			find the third letter "d"
+	6.	Else if repeat step 5
+	7.		If the third letter is "d"
+				find the fourth letter "o"
+	8.		Else if repeat step 7
+	9.			If the fourth letter is "o"
+					find its meaning
+	10.			Else if repeat step 9
+	11. Else quit
